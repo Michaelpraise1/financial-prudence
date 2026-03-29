@@ -261,6 +261,7 @@ img {
 .summary-section {
   background-color: var(--color-bg-alt);
   position: relative;
+  padding: 6rem 0;
 }
 
 .summary-card {
@@ -269,7 +270,7 @@ img {
   border-radius: 24px;
   box-shadow: var(--shadow-md);
   max-width: 900px;
-  margin: -120px auto 0; /* Pulls up into hero slightly for depth */
+  margin: 0 auto;
   position: relative;
   z-index: 10;
   font-size: 1.15rem;
@@ -549,7 +550,7 @@ img {
     max-width: 500px;
     margin: 0 auto;
   }
-  .author-content { padding-right: 0;}
+  .author-content { padding-right: 0; text-align: center; }
 }
 
 @media (max-width: 768px) {

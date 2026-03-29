@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function HeroSection() {
   return (
-    <section className="hero-section mb-5">
+    <section className="hero-section ">
       <div className="container hero-grid">
         <div className="hero-content">
           <span className="hero-badge">New Release Book</span>
@@ -20,10 +20,11 @@ export default function HeroSection() {
           <Image
             src="/book.png"
             alt="Financial Prudence Book Cover"
-            width={600}
-            height={800}
-            className="hero-image"
+            width={500}
+            height={600}
+            className="hero-image mb-5"
             priority
+
           />
         </div>
       </div>
