@@ -434,6 +434,8 @@ function PaymentInfo() {
     <div className="payment-info-box">
       <h4 className="payment-title">💳 Payment Details</h4>
       <p className="payment-subtitle">Make payment to the account below, then submit this form.</p>
+      
+      {/* First Account */}
       <div className="payment-details-grid">
         <div className="payment-detail-item">
           <span className="payment-detail-label">Bank</span>
@@ -452,6 +454,27 @@ function PaymentInfo() {
           <span className="payment-detail-value amount-highlight">₦20,000</span>
         </div>
       </div>
+
+      {/* Second Account */}
+      <div className="payment-details-grid" style={{ marginTop: "1.5rem" }}>
+        <div className="payment-detail-item">
+          <span className="payment-detail-label">Bank</span>
+          <span className="payment-detail-value">Poketapp</span>
+        </div>
+        <div className="payment-detail-item">
+          <span className="payment-detail-label">Account Name</span>
+          <span className="payment-detail-value">Adekoya Anuoluwapo</span>
+        </div>
+        <div className="payment-detail-item">
+          <span className="payment-detail-label">Account Number</span>
+          <span className="payment-detail-value account-number">9211172289</span>
+        </div>
+        <div className="payment-detail-item">
+          <span className="payment-detail-label">Amount</span>
+          <span className="payment-detail-value amount-highlight">₦20,000</span>
+        </div>
+      </div>
+
       <p className="payment-note">
         ⚡ Use your <strong>name </strong> as payment description/narration for easy tracking.
       </p>
