@@ -27,8 +27,21 @@ export default function OrderSection() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    setSubmitted(true);
-  };
+
+    fetch("https://gada-web-backend.vercel.app/v1/purchase", {
+      body: JSON.stringify({
+        fullname: form.name,
+        email: form.email,
+        type: orderType === "hardcopy" ? "hardCopy" : "softCopy",
+        address: form.address,
+        phone: form.phone,
+        delivery_type: deliveryType,
+      pickup_location: form.pickupPoint,
+    }),
+    method: "POST"
+  }).then(res => res.json).then(res => console.log(res));
+      setSubmitted(true);
+    };
 
   const resetForm = () => {
     setOrderType(null);
@@ -410,15 +423,15 @@ function PaymentInfo() {
       <div className="payment-details-grid">
         <div className="payment-detail-item">
           <span className="payment-detail-label">Bank</span>
-          <span className="payment-detail-value">First Bank of Nigeria</span>
+          <span className="payment-detail-value">Pocketapp</span>
         </div>
         <div className="payment-detail-item">
           <span className="payment-detail-label">Account Name</span>
-          <span className="payment-detail-value">Financial Prudence Publications</span>
+          <span className="payment-detail-value">Adekoya Anuoluwapo</span>
         </div>
         <div className="payment-detail-item">
           <span className="payment-detail-label">Account Number</span>
-          <span className="payment-detail-value account-number">0123456789</span>
+          <span className="payment-detail-value account-number">9211172289</span>
         </div>
         <div className="payment-detail-item">
           <span className="payment-detail-label">Amount</span>

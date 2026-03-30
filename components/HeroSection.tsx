@@ -18,10 +18,10 @@ export default function HeroSection() {
         </div>
         <div className="hero-image-wrapper">
           <Image
-            src="/bookcover.png"
+            src="/bookim.png"
             alt="Financial Prudence Book Cover"
-            width={500}
-            height={600}
+            width={600}
+            height={500}
             className="hero-image "
             priority
 
