@@ -20,16 +20,13 @@ export default function AuthorSection() {
 
           <div className="author-bio">
             <p>
-              Adekoya Anuoluwapo is a personal finance expert with years of professional experience.
-              She has spent years studying financial systems, business structures, and the principles that guide sustainable wealth and responsible money management.
+              Adekoya Anuoluwapo is a tax consultant, lawyer, and personal finance expert with extensive experience in financial systems and wealth management. She is a seasoned speaker dedicated to helping individuals not only earn money but manage and structure it wisely.
             </p>
             <p>
-              As a seasoned speaker, she is deeply committed to helping individuals understand not just how to earn money, but how to manage, structure, and steward it wisely.
-              Her works focus on financial prudence, not merely as a set of financial techniques, but as a stewardship which requires strategic thinking and responsible leadership.
+              Her work emphasizes financial prudence as a form of stewardship, combining strategic thinking with responsible leadership. Drawing from biblical principles and real-life insights, she encourages a disciplined, long-term approach to wealth.
             </p>
             <p>
-              Drawing inspiration from biblical principles, real-life financial patterns, and reflective insights, she challenges conventional thinking about money and encourages readers to approach wealth with clarity, diligence, and long-term vision.
-              She believes that financial stability is built through structured thinking, disciplined action, and a deep understanding of how money truly works.
+             She believes financial stability comes from structure, discipline, and understanding money, not luck. Her mission is to equip people with practical systems for sustainable financial growth.
             </p>
           </div>
         </div>

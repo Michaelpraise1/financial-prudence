@@ -557,7 +557,11 @@ img {
   .section {
     padding: 5rem 0;
   }
-  
+  .author-image-wrapper {
+    max-width: 400px;
+    margin: 0 auto;
+    display: block;
+  }
   .hero-title {
     font-size: 2.5rem;
   }

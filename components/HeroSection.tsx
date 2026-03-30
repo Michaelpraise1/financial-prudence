@@ -11,18 +11,18 @@ export default function HeroSection() {
             Money shapes nearly every decision we make, yet very few people are ever taught how to truly understand it.
             Earn it, keep it, and build a lifecycle of sustainable wealth.
           </p>
-          <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', justifyContent: 'center' }}>
+          <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', justifyContent: 'start' }}>
             <a href="#order" className="btn hover-lift">Get Your Copy</a>
             {/* <button className="btn btn-outline hover-lift">Read an Excerpt</button> */}
           </div>
         </div>
         <div className="hero-image-wrapper">
           <Image
-            src="/book.png"
+            src="/bookcover.png"
             alt="Financial Prudence Book Cover"
             width={500}
             height={600}
-            className="hero-image mb-5"
+            className="hero-image "
             priority
 
           />

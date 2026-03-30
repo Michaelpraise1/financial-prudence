@@ -56,8 +56,7 @@ export default function OrderSection() {
             <strong>Copyright Notice:</strong> No part of this book may be plagiarized,
             photocopied, reproduced, distributed, or transmitted in any form or by any means,
             including photocopying, recording, or other electronic or mechanical methods, without
-            the prior written permission of the author. Violators will be prosecuted to the full
-            extent of the law.
+            the prior written permission of the author.
           </p>
         </div>
 
