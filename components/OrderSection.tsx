@@ -437,7 +437,7 @@ function PaymentInfo() {
       <div className="payment-details-grid">
         <div className="payment-detail-item">
           <span className="payment-detail-label">Bank</span>
-          <span className="payment-detail-value">Pocketapp</span>
+          <span className="payment-detail-value">Opay</span>
         </div>
         <div className="payment-detail-item">
           <span className="payment-detail-label">Account Name</span>
@@ -445,7 +445,7 @@ function PaymentInfo() {
         </div>
         <div className="payment-detail-item">
           <span className="payment-detail-label">Account Number</span>
-          <span className="payment-detail-value account-number">9211172289</span>
+          <span className="payment-detail-value account-number">8135667574</span>
         </div>
         <div className="payment-detail-item">
           <span className="payment-detail-label">Amount</span>
@@ -453,7 +453,7 @@ function PaymentInfo() {
         </div>
       </div>
       <p className="payment-note">
-        ⚡ Use your <strong>name</strong> as payment description/narration for easy tracking.
+        ⚡ Use your <strong>name </strong> as payment description/narration for easy tracking.
       </p>
     </div>
   );
