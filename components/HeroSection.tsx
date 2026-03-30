@@ -5,7 +5,7 @@ export default function HeroSection() {
     <section className="hero-section ">
       <div className="container hero-grid">
         <div className="hero-content">
-          <span className="hero-badge">New Release Book</span>
+          <span className="hero-badge">New Release</span>
           <h1 className="hero-title text-gradient">The Blueprint for Financial Prudence.</h1>
           <p className="hero-subtitle">
             Money shapes nearly every decision we make, yet very few people are ever taught how to truly understand it.

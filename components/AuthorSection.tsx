@@ -4,6 +4,7 @@ export default function AuthorSection() {
   return (
     <section className="section author-section">
       <div className="container author-grid">
+        <h2 className="section-title author-section-title text-center">A Few Words About The Author</h2>
         <div className="author-image-wrapper">
           <Image
             src="/author_image.JPEG"
@@ -14,7 +15,6 @@ export default function AuthorSection() {
           />
         </div>
         <div className="author-content">
-          <h2 className="section-title">A Few Words About The Author</h2>
           <h3 className="author-name text-gradient">Adekoya Anuoluwapo</h3>
           <span className="author-title">Tax Consultant, Lawyer & Financial Expert</span>
 

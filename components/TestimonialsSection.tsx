@@ -25,7 +25,7 @@ export default function TestimonialsSection() {
                 <div className="testimonial-avatar">Q{idx+1}</div>
                 <div>
                   <div className="testimonial-name">Financial Prudence</div>
-                  <div className="testimonial-role">Book Excerpt</div>
+                  <div className="testimonial-role">Author</div>
                 </div>
               </div>
             </div>
