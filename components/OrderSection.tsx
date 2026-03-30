@@ -32,7 +32,7 @@ fetch("https://gada-web-backend.vercel.app/v1/purchase", {
   method: "POST",
   headers: {
     "Content-Type": "application/json",
-    
+
   },
   body: JSON.stringify({
     fullname: form.name,
@@ -73,26 +73,6 @@ fetch("https://gada-web-backend.vercel.app/v1/purchase", {
           </p>
         </div>
 
-        {/* Copyright Caution */}
-        <div className="copyright-caution">
-          <span className="caution-icon">⚠️</span>
-          <p>
-            <strong>Copyright Notice:</strong> No part of this book may be plagiarized,
-            photocopied, reproduced, distributed, or transmitted in any form or by any means,
-            including photocopying, recording, or other electronic or mechanical methods, without
-            the prior written permission of the author.
-          </p>
-        </div>
-
-        {/* Soft Copy Notice */}
-        <div className="softcopy-notice">
-          <span className="notice-icon">📖</span>
-          <p>
-            <strong>Please Note:</strong> This book is currently available in <strong>hard copy only</strong>.
-            Soft copies (e-books) are <strong>strictly by request</strong>. To request an e-book,
-            please make payment and we will contact you immediately.
-          </p>
-        </div>
 
         {/* Order Type Selector */}
         {!submitted && (
@@ -139,6 +119,8 @@ fetch("https://gada-web-backend.vercel.app/v1/purchase", {
                 </p>
               </button>
             </div>
+
+            
 
             {/* Form Area */}
             {orderType && (
@@ -422,6 +404,27 @@ fetch("https://gada-web-backend.vercel.app/v1/purchase", {
           </div>
         )}
       </div>
+
+      {/* Copyright Caution */}
+        <div className="copyright-caution">
+          <span className="caution-icon">⚠️</span>
+          <p>
+            <strong>Copyright Notice:</strong> No part of this book may be plagiarized,
+            photocopied, reproduced, distributed, or transmitted in any form or by any means,
+            including photocopying, recording, or other electronic or mechanical methods, without
+            the prior written permission of the author.
+          </p>
+        </div>
+
+        {/* Soft Copy Notice */}
+        <div className="softcopy-notice">
+          <span className="notice-icon">📖</span>
+          <p>
+            <strong>Please Note:</strong> This book is currently available in <strong>hard copy only</strong>.
+            Soft copies (e-books) are <strong>strictly by request</strong>. To request an e-book,
+            please make payment and we will contact you immediately.
+          </p>
+        </div>
     </section>
   );
 }
