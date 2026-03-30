@@ -28,18 +28,29 @@ export default function OrderSection() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
 
-    fetch("https://gada-web-backend.vercel.app/v1/purchase", {
-      body: JSON.stringify({
-        fullname: form.name,
-        email: form.email,
-        type: orderType === "hardcopy" ? "hardCopy" : "softCopy",
-        address: form.address,
-        phone: form.phone,
-        delivery_type: deliveryType,
-      pickup_location: form.pickupPoint,
-    }),
-    method: "POST"
-  }).then(res => res.json).then(res => console.log(res));
+fetch("https://gada-web-backend.vercel.app/v1/purchase", {
+  method: "POST",
+  headers: {
+    "Content-Type": "application/json",
+    
+  },
+  body: JSON.stringify({
+    fullname: form.name,
+    email: form.email,
+    type: orderType === "hardcopy" ? "hardCopy" : "softCopy",
+    address: form.address,
+    phone: form.phone,
+    delivery_type: deliveryType,
+    pickup_location: form.pickupPoint,
+  }),
+})
+  .then((res) => res.json()) // ✅ fix here
+  .then((data) => {
+    console.log(data);
+  })
+  .catch((error) => {
+    console.error("Error:", error);
+  });
       setSubmitted(true);
     };
 
