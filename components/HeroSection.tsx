@@ -11,7 +11,7 @@ export default function HeroSection() {
             Money shapes nearly every decision we make, yet very few people are ever taught how to truly understand it.
             Earn it, keep it, and build a lifecycle of sustainable wealth.
           </p>
-          <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', justifyContent: 'start' }}>
+          <div className="hero-cta-wrapper">
             <a href="#order" className="btn hover-lift">Get Your Copy</a>
             {/* <button className="btn btn-outline hover-lift">Read an Excerpt</button> */}
           </div>

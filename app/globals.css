@@ -232,6 +232,13 @@ img {
   max-width: 90%;
 }
 
+.hero-cta-wrapper {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
 .hero-image-wrapper {
   position: relative;
   animation: float 6s ease-in-out infinite, fadeIn 1.5s ease forwards;
@@ -597,6 +604,10 @@ img {
   
   .hero-image-wrapper {
     order: 0;
+  }
+  
+  .hero-cta-wrapper {
+    justify-content: center;
   }
   
   .feature-card {
